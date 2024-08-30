@@ -1,0 +1,60 @@
+body {
+    color: rgb(154, 121, 197);
+    background-color: rgb(19, 5, 49);
+    font-size: large;
+    font: optional;
+    font:icon;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+    padding: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+header {
+    border-color: rgb(255, 255, 255);
+    border-bottom: solid;
+    border-bottom-left-radius: -0.5cm;
+    border-left-width: 50px;
+    border-bottom-right-radius: -0.5cm;
+    border-width: 0.05cm;
+}
+
+section {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-call{
+    margin-right: 5%;
+
+}
+
+.video-contenter{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.video-gridder{
+    line-height: 3px;
+    display:block;
+    overflow-y: scroll;
+    overflow-wrap: normal;
+    overflow-anchor:auto;
+    gap: 2px;
+}
+
+.video-gridder img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.video-gridder img :hover{
+    opacity: 1.0;
+    border: 1px solid green;
+}
